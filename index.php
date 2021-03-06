@@ -14,7 +14,7 @@
 
             $user = $pass = "";
             // success message and data display of user 
-            if (isset($_POST['login'])): ?>
+            if (isset($_GET['login'])): ?>
 
             
                 
@@ -54,7 +54,7 @@
        
             </div>
 
-            <?php elseif(isset($_POST['signin'])): ?>
+            <?php elseif(isset($_GET['signin'])): ?>
                 <div class="row justify-content-center mt-5">
                 
                     <form action="operation.php" method="post" enctype="multipart/form-data">
