@@ -7,7 +7,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     header("location: login.php");
     exit;
 }
-if(isset($_POST['logout'])){
+if(isset($_GET['logout'])){
     $_SESSION = array();
     
     // Destroy the session.
