@@ -16,7 +16,7 @@ if(isset($_POST['logout'])){
     // Redirect to Signin form
     
     header("location: index.php?signin");
-    exit;
+    exit();
 }
 ?>
  
