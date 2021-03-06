@@ -47,7 +47,7 @@
                     <input type="hidden" name="user" value="<?= $user;?>">
                     <input type="hidden" name="pass" value="<?= $pass; ?>">
                     <div class="form-group">
-                        <button type="submit" class="btn btn-success" name="login">Save</button>
+                        <button type="submit" name="login">Login</button>
                         <p>Don't have an account? <a href="index.php">SignUp here</a>.</p>
                     </div>
                 </form>
